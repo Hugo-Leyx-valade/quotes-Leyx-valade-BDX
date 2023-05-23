@@ -7,7 +7,7 @@ def menu():
 	print("2. Display quotes")
 	print("3. Exit")
 	print("2. All quotes")
-    print("3. Add quote")
+    	print("3. Add quote")
 	print("4. Exit")
 
 
@@ -28,8 +28,8 @@ def main():
 			display_quote(quotes,count)
 		elif choice == "3":
 			view_quotes(quotes)
-        elif choice == "3":
-            add_quote(quotes,"quotes.txt")
+       	 	elif choice == "3":
+            		add_quote(quotes,"quotes.txt")
 		elif choice == "4":
 			print("Good bye...")
 			break
